@@ -978,6 +978,10 @@ input {
   display: none;
 }
 
+#product-image3 {
+  display: none;
+}
+
 
 .para4{
   max-width: 100%;

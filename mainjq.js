@@ -43,6 +43,7 @@ $(document).ready(() => {
 
   let $p1pic = $('#product-image');
   let $p2pic = $('#product-image2');
+  let $p3pic = $('#product-image3');
 
   $('.products').on('click', (event) => {
     $('.products').removeClass('p-active');
@@ -56,7 +57,12 @@ $(document).ready(() => {
       $p1pic.hide()
       $p2pic.show()
       $p3pic.hide()
+    } else if (($(event.currentTarget).attr('id')) === "product3") {
+      $p1pic.hide()
+      $p2pic.hide()
+      $p3pic.show()
     }
+
   });
 
   $("#accesslink").click(function() {
