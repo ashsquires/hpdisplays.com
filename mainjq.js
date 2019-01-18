@@ -1,5 +1,11 @@
 $(document).ready(() => {
 
+  $('#topim').animate({
+    'marginTop' : '-=40px',
+    'opacity' : '1'
+  }, 1200);;
+  console.log('ready');
+
   const $inputtext = $(".inputfield");
   const $submitbutton = $(".submitem");
   let submittedalready = false;

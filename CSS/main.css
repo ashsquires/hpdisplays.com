@@ -194,6 +194,11 @@ nav a:hover {
   height: auto;
 }
 
+#topim {
+  margin-top: 40px;
+  opacity: 0;
+}
+
 
 /*#bridge {
   right: 0;
