@@ -293,13 +293,13 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#75a6cd",endCo
   letter-spacing: 0.06rem;
 }
 .maincontent h2 {
-  max-width: 650px;
-  color: rgba(80, 97, 111, 1);
+  max-width: 700px;
+  color: #828990;
   font-size:1rem; #50616F;
   font-family: proxima-nova, sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
-  margin: 20px auto 0 auto;
+  margin: 30px auto 10px auto;
   height:auto;
   animation-name: appeardown;
   animation-duration: 0.5s;
@@ -1673,11 +1673,7 @@ footer .norm {
 
 
 
-@media screen and (max-width: 1300px ){
-  #bridge {
-    width: 50%;
-  }
-}
+
 @media screen and ( max-width: 990px ){
     #supportnav{
         display: none;
@@ -1690,6 +1686,7 @@ footer .norm {
     .rightphoto {
       display: none;
     }
+
     #finalpic {
       display: block;
       width: 84%;
@@ -1737,9 +1734,6 @@ footer .norm {
     html {
     }
 
-    nav {
-        display: none;
-    }
 
     #birdline {
       display: none;
@@ -1747,11 +1741,15 @@ footer .norm {
 
     .navcontent {
       justify-content: center;
-      margin-left: auto;
-      margin-right: auto;
+      margin-left: 20px;
+      margin-right: 20px;
     }
     .one {
       text-align: center;
+    }
+
+    #HIW {
+      display: none;
     }
 
 
@@ -1767,7 +1765,7 @@ footer .norm {
     .maintext {
       margin-left: 8%;
       margin-right: 8%;
-      margin-top: 20%;
+      margin-top: 30%;
       text-align: center;
     }
 
@@ -1831,7 +1829,11 @@ footer .norm {
     }
 
     #mainh1 {
-      font-size: 1.6rem;
+      font-size: 2.6rem;
+    }
+
+    input {
+      width: 200px;
     }
 
     .request {
@@ -1853,6 +1855,18 @@ footer .norm {
 }
 
 @media screen and (max-height: 700px) {
+
+  .maincontent {
+    height: 350px;
+  }
+
+  .itop {
+    display: none;
+  }
+
+  #mainh1 {
+    font-size: 2rem;
+  }
 
 
   .logos {
