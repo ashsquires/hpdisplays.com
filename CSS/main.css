@@ -1,5 +1,5 @@
 html {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @font-face {
@@ -310,10 +310,10 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#75a6cd",endCo
 .maincontent h2 {
   max-width: 900px;
   letter-spacing: 0.03rem;
-  color: #84878A;
+  color: #3E5E7E;
   font-size:1rem; #50616F;
   font-family: HPSimple, sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   margin: 30px auto 10px auto;
   height:auto;
