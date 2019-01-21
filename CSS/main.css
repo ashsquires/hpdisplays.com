@@ -1,14 +1,24 @@
 html {
-  font-size: 16px;
+  font-size: 18px;
+}
+
+@font-face {
+  font-family: HPSimple;
+  src: url(./Fonts/hp-simplified-light.ttf) format("truetype");
+  font-weight: 400;
 }
 
 body {
-  font-family: proxima-nova, sans-serif;
+  font-family: HPSimple;
   margin: 0;
   height: auto;
   width: 100%;
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  letter-spacing: 0.03rem;
 }
 
 .max{
@@ -18,20 +28,16 @@ body {
 .body-hid {
   overflow-x: hidden;
 }
-.maincontent h1 {
-  font-family: proxima-nova, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
+
 nav {
-  font-family: proxima-nova, sans-serif;
+  font-family: HPSimple, sans-serif;
   font-weight: 300;
   font-style: normal;
   text-align: center;
 }
 
 #logolink {
-  height: 40px;
+  height: 60px;
 }
 
 .navbar {
@@ -122,7 +128,7 @@ nav a {
 }
 
 header img {
-  height: 40px;
+  height: 60px;
   width: auto;
 }
 
@@ -291,19 +297,22 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#75a6cd",endCo
 }
 
 .maincontent h1 {
+  font-family: HPSimple, sans-serif;
+  font-weight: 400;
+  font-style: normal;
   color: #21415D;
   font-size: 3rem;
-  font-weight: 600;
   height: auto;
   margin-bottom: 0;
   margin-top: 0;
   letter-spacing: 0.06rem;
 }
 .maincontent h2 {
-  max-width: 700px;
-  color: #828990;
+  max-width: 900px;
+  letter-spacing: 0.03rem;
+  color: #84878A;
   font-size:1rem; #50616F;
-  font-family: proxima-nova, sans-serif;
+  font-family: HPSimple, sans-serif;
   font-weight: 400;
   font-style: normal;
   margin: 30px auto 10px auto;
@@ -345,6 +354,10 @@ input {
   width: 260px;
 }
 
+.inputfield {
+  font-family: HPSimple;
+}
+
 .input-active {
   border-bottom: 2px solid #2588DD;
   color: #AAB8C3;
@@ -355,16 +368,35 @@ input {
 }
 
 .submitem {
+  cursor: default;
   padding: 15px 60px;
   margin-left: 40px;
-  border-radius: 28px;
-  background-color: #8FC1EC;
+  border-radius: 3px;
+  background-color: #fff;
   box-shadow: none;
   font-size: 1rem;
-  color: #fff;
-  font-weight: 500;
+  color: #2588DD;
+  font-weight: 400;
+  font-family: HPSimple;
   border: none;
   align-self: flex-end;
+  border: 2px solid #2588DD;
+}
+
+.submitem2 {
+  cursor: default;
+  padding: 15px 60px;
+  margin-left: 40px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: none;
+  font-size: 1rem;
+  color: #2588DD;
+  font-weight: 400;
+  font-family: HPSimple;
+  border: none;
+  align-self: flex-end;
+  border: 2px solid #2588DD;
 }
 
 .submitem:hover {
@@ -372,6 +404,7 @@ input {
 }
 
 .sub-active {
+  color: #fff;
   background-color: #2588DD;
   box-shadow: 0px 1px 3px rgba(146, 175, 201, 0.81);
 }
@@ -435,7 +468,7 @@ input {
   color: #2588DD;
   margin-top: 10px;
   margin-bottom: 30px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.03rem;
 }
 
@@ -484,7 +517,7 @@ input {
   color: #2588DD;
   margin-top: 10px;
   margin-bottom: 40px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 0.03rem;
 }
 
@@ -1037,7 +1070,8 @@ input {
 .product-text h2 {
   color: #235784;
   margin-top: 0;
-  font-size: 1rem;
+  font-size: 1.25rem;
+  font-weight: 400;
   letter-spacing: 0.03rem;
   margin-bottom: 10px;
 }
@@ -1841,6 +1875,11 @@ footer .norm {
 
     input {
       width: 200px;
+      font-family: HPSimple;
+    }
+
+    fieldset {
+      font-family: HPSimple;
     }
 
     .request {

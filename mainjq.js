@@ -71,12 +71,12 @@ $(document).ready(() => {
 
   });
 
+
   $("#accesslink").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#request").offset().top
     }, 1000);
-});
-
+  });
 
 
 
