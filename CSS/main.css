@@ -2,7 +2,7 @@ html {
   font-size: 16px;
 }
 
-@font-face {
+/*@font-face {
   font-family: HPSimple;
   src: url(../Fonts/hp-simplified-light.ttf) format("truetype");
   font-weight: 300;
@@ -19,6 +19,7 @@ html {
   src: url(../Fonts/hp-simplified-556.ttf) format("truetype");
   font-weight: 600;
 }
+*/
 
 body {
   font-family: HPSimple;
