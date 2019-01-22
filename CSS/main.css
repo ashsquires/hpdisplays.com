@@ -446,6 +446,15 @@ input {
   justify-content: space-around;
 }
 
+#mobileaccess {
+  display: none;
+}
+
+#mobim {
+  display: none;
+  width: 60%;
+}
+
 
 /*-------HP TWO---------*/
 
@@ -538,7 +547,6 @@ input {
 /*******HP FOUR*******/
 
 .four-wrapper {
-  min-height: 500px;
   margin-top: 20px;
   z-index: 1;
   display: flex;
@@ -547,7 +555,6 @@ input {
 
 .four-wrapper img {
   width: 100%;
-  position: absolute;
 }
 
 .four-flex {
@@ -1077,6 +1084,8 @@ input {
 .products {
   display: flex;
   margin-bottom: 1rem;
+  border-radius: 4px;
+  padding-right: 20px;
 }
 
 .product-text h2 {
@@ -1159,9 +1168,7 @@ input {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-top: 100px;
   margin-bottom: 200px;
-  max-height: 13rem;
 }
 
 .requestcontent {
@@ -1600,6 +1607,7 @@ footer .norm {
 }
 
 
+
 /*=============contact---------------*/
 
 .conwrap {
@@ -1785,11 +1793,7 @@ footer .norm {
 @media only screen and (max-width: 820px) {
 
     html {
-    }
-
-
-    #birdline {
-      display: none;
+      font-size: 14px;
     }
 
     .navcontent {
@@ -1801,19 +1805,153 @@ footer .norm {
       text-align: center;
     }
 
-    #HIW {
+    header {
+      position: absolute;
+    }
+
+    header img {
+      height: 50px;
+    }
+
+    nav a {
       display: none;
     }
 
-
-    #bridge {
-      all: none;
-      margin: 0;
-      opacity: 1;
-      z-index: 4;
-      width: 100%;
-      max-width: 526px;
+    #mobileaccess {
+      display: inline;
     }
+
+    .left {
+      display: none;
+    }
+
+    .submitem {
+      margin-left: 0px;
+    }
+
+    .maincontent {
+      height: auto;
+    }
+
+    #deskim {
+      display: none;
+    }
+
+    .topimage {
+      margin-top: 40px;
+    }
+
+    .two-wrapper {
+      height: auto;
+    }
+
+    .two-text {
+      margin: 0;
+    }
+
+    .two-text h1 {
+      font-size: 1.4rem;
+    }
+
+    .two-text h3 {
+      font-size: 1rem;
+    }
+
+    .two-flex {
+      margin: 100px 8% 0 8%;
+    }
+    .mobim {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    #mobim {
+      display: inline;
+      margin: 60px auto 80px auto;
+    }
+
+    .three-wrapper {
+      padding-bottom: 40px;
+    }
+
+    .three-flex {
+      flex-direction: column;
+      margin-top: 40px;
+    }
+
+    .three-text-flex {
+      margin: 0 8%;
+    }
+
+
+    .three-text h1 {
+      font-size: 1.4rem;
+      margin-bottom: 36px;
+    }
+
+    .three-text h3 {
+      font-size: 1rem;
+    }
+
+    .products img {
+      height: 20px;
+    }
+
+    .product-text {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .products {
+      padding-right: 10px;
+    }
+
+    .three-flex img {
+      margin: 0 8%;
+    }
+
+    .pimage {
+      height: 300px;
+    }
+
+    .requestcontent {
+      border-top: 0px;
+    }
+
+    .requestcontent h2 {
+      font-size: 1.4rem;
+    }
+
+    fieldset {
+      padding: 0px;
+      margin: 0px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    fieldset input {
+      width: 100%;
+    }
+
+    .subbtn {
+      width: 100%;
+      margin: 20px auto;
+    }
+
+    .col p {
+      margin: 0;
+      color: #235784;
+    }
+
+
+
+
+
+
+
+    /*mmm*/
+
 
     .maintext {
       margin-left: 8%;
@@ -1822,54 +1960,15 @@ footer .norm {
       text-align: center;
     }
 
-    .sec1 img {
-      display: none;
-    }
 
-    .sec1 {
-      height: 600px;
-    }
 
-    .rightphoto {
-      display: none;
-    }
 
-    #finalpic {
-      display: block;
-      width: 84%;
-      height:auto;
-      margin: 0 auto 100px auto;
-    }
 
-    .photos{
-      display: none;
-      margin: 0;
-    }
 
-    .sec2content {
-      padding: 0;
-      display: flex;
-    }
 
-    .graphwrapper1 {
-      display: none;
-    }
 
-    .para4 {
-      margin-bottom: 0;
-    }
 
-    #cross {
-      display: block;
-      height: 270px;
-      background-position: center;
-      background-image: url(../Images/cross@3x-compressor.png);
-      width: 100%;
-      border-radius: 10px 10px 0 0;
-      z-index: 10;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
+
 
     .p2 {
       min-width: 300px;
@@ -1912,7 +2011,7 @@ footer .norm {
     }
 }
 
-@media screen and (max-height: 700px) {
+/*@media screen and (max-height: 700px) {
 
   .maincontent {
     height: 350px;

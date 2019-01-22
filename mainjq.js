@@ -78,6 +78,12 @@ $(document).ready(() => {
     }, 1000);
   });
 
+  $("#mobileaccess").click(function() {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $("#request").offset().top
+    }, 1000);
+  });
+
 
 
 
