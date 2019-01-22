@@ -395,6 +395,21 @@ input {
   border: 2px solid #2588DD;
 }
 
+.mobsubmitem {
+  cursor: default;
+  padding: 15px 60px;
+  border-radius: 3px;
+  background-color: #fff;
+  box-shadow: none;
+  font-size: 1rem;
+  color: #2588DD;
+  font-weight: 400;
+  font-family: HPSimple;
+  border: none;
+  align-self: flex-end;
+  border: 2px solid #2588DD;
+}
+
 .submitem2 {
   cursor: default;
   padding: 15px 60px;
@@ -415,13 +430,21 @@ input {
   cursor: pointer;
 }
 
+.mobsubmitem:hover {
+  cursor: pointer;
+}
+
 .sub-active {
   color: #fff;
   background-color: #2588DD;
   box-shadow: 0px 1px 3px rgba(146, 175, 201, 0.81);
 }
 
-.success-wrap {
+.top {
+  display:none;
+}
+
+.bot {
   display:none;
 }
 

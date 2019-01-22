@@ -39,11 +39,25 @@ $(document).ready(() => {
     }
   });
 
-  $submitbutton.on('click', (event) => {
+  /*$submitbutton.on('click', (event) => {
     let act = $(event.currentTarget).attr("class");
     if (act.indexOf("sub-active") >= 0) {
       $('.success-wrap').fadeIn(400);
       submittedalready = true;
+    };
+  });*/
+
+  $submitbutton.on('click', (event) => {
+    let act = $(event.currentTarget).attr("class");
+    let id = $(event.currentTarget).attr("id");
+    if (act.indexOf("sub-active") >= 0) {
+      if (id === "top") {
+        $('.top').fadeIn(400);
+        submittedalready = true;
+      } else {
+        $('.bot').fadeIn(400);
+        submittedalready = true;
+      }
     };
   });
 
