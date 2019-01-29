@@ -86,6 +86,20 @@ $(document).ready(() => {
   });
 
 
+  /*const scrollToFunc = (where) => {
+    $([document.documentElement, document.body]).animate({
+        scrollTop: $(where).offset().top
+    }, 1000);
+    console.log('already scrolled');
+  };
+
+  $("#accesslink").on('click', scrollToFunc("#request"));
+
+  $("#mobileaccess").on('click', scrollToFunc("#request"));*/
+
+
+
+
   $("#accesslink").click(function() {
     $([document.documentElement, document.body]).animate({
         scrollTop: $("#request").offset().top
